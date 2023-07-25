@@ -14,17 +14,17 @@ int main()
 
     do
     {
-        cout << "Enter Guess(1-100):";
+        cout << "Enter Guess number(1-100):";
 
         cin >> guess;
 
         if (guess > number)
-            cout << "Guess lower!" << endl;
+            cout << "Guess lower number!" << endl;
         else if (guess < number)
-            cout << "Guess higher!" << endl;
+            cout << "Guess higher number!" << endl;
         else
         {
-            cout << "You won!" << endl;
+            cout << "You won the Game!" << endl;
         }
 
     } while (guess != number);
